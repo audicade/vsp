@@ -1,0 +1,18 @@
+-- Install global composer
+composer global require laravel/installer
+
+-- Create new project
+- using direct composer
+composer create-project laravel/laravel "Project Name"
+cd "Project Name"
+
+- using global composer
+laravel new "Project Name"
+cd "Project Name"
+
+-- Run Project
+! (Change directory to project) !
+php artisan serve
+
+-- Shut down project
+key(ctrl+c)
